@@ -14,12 +14,12 @@ This script is designed to scrape news articles from the "Apex Legends" section 
 
 1. Install the required libraries:
     ```bash
-    pip install requests tinydb scrapy
+    pip install -r requirements.txt
     ```
 2. Ensure you have the `news.json` file in the same directory as the script for TinyDB to store the data.
 3. Run the script:
     ```bash
-    python script_name.py
+    python main.py
     ```
 
 ## Functions
